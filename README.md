@@ -21,7 +21,7 @@ class DragonBallWeb:
     @allure.description("This function counts all characters found on the page after scrolling to the bottom.")
     def get_characters_count(self):
         return self.items.count()
-		
+	
 import allure
 import pytest
 from playwright.sync_api import Playwright, expect
